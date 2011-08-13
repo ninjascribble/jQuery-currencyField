@@ -1,0 +1,11 @@
+Turn this: 1234567.890
+Into this: 1,234,567.89
+
+Woo Hoo! Magic!
+
+Usage: jQuery('input[type=text]').currencyField(options)
+
+Options:
+  + "thousands" -- A character used for separating 'thousands'. Default: ','.
+  + "decimal" -- A character used for separating the integral from the decimal. Default: '.'.
+  + "zeroes" -- The number of zeroes to include in the decimal. Default: 2.
